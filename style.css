@@ -8,8 +8,8 @@
 }
 
 :root {
-  --bg: #0e0b16;
-  --text: #e0e0e0;
+  --bg: #fff;
+  --text: #000;
   --accent: #ff2a6d;
   --glow: 0 0 8px var(--accent);
 }
@@ -121,6 +121,11 @@ button{
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+button:hover {
+    background-color: #ff2a6d;
+    transform: scale(1.05);
+}
+
 footer{
     background-color: var(--bg);
     color: var(--text);
@@ -143,12 +148,12 @@ footer{
   }
 
   .content-registros {
-    background-color: #1a1a2e;
+    background-color: var(--bg);
     border-left-color: var(--accent);
   }
 
   footer, .header {
-    background-color: #101017;
+    background-color: var(--bg);
   }
 
   button {

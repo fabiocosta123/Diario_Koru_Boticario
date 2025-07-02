@@ -78,13 +78,16 @@ a {
 }
 
 /* Container com dois registros lado a lado */
-.container-registros {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
-  gap: 2%;
-  margin-top: 3%;
-}
 
+
+.container-registros{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 time {
   color: var(--glow);
   font-style: italic;
@@ -119,6 +122,11 @@ button{
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #928186;
+    transform: scale(1.05);
 }
 
 footer{
