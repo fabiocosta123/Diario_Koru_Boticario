@@ -8,8 +8,8 @@
 }
 
 :root {
-  --bg: #fff;
-  --text: #000;
+  --bg:  rgb(235, 224, 224);;
+  --text: #0a0a0a;
   --accent: #ff2a6d;
   --glow: 0 0 8px var(--accent);
 }
