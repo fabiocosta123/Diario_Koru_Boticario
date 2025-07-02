@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=IBM+Plex+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* cabeçalho */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aaaac1;
+    color: white;
+    padding: 2rem 0;
+}
+
+.nav-menu {    
+    width: 20%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Main */
+
+.sub-title {
+    font-size: 2.2rem;
+    color: #333;
+    margin-top: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Container com dois registros lado a lado */
+.container-registros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+  gap: 2%;
+  margin-top: 3%;
+}
+
+.content-registros {
+    background-color: #f0f0f0;
+    border-left: 5px solid #ff2a6d;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px rgba(255, 42, 109, 0.3);
+    border-radius: 8px;
+    position: relative;
+    
+}
+
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=IBM+Plex+Mono&display=swap');
+
+:root {
+  --bg: #0e0b16;
+  --text: #e0e0e0;
+  --accent: #ff2a6d;
+  --glow: 0 0 8px var(--accent);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 2rem;
+}
+
+Título com data na mesma linha 
+.diario-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.diario-header h2 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.diario-header span {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Container com dois registros lado a lado 
+.container-registros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+  gap: 2%;
+}
+
+/* Estilo dos artigos 
+article {
+  background-color: #1a1a2e;
+  border-left: 5px solid var(--accent);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(255, 42, 109, 0.3);
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Botões fora do container 
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+button {
+  background-color: var(--accent);
+  border: none;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff5e94;
+}
+
+
+*/
